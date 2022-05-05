@@ -4,19 +4,19 @@ public class Lesson7 {
 
     public static void main(String[] args) {
 
-        //объект типа String со значением "Рыжик"
-        String catName = "Рыжик";
+        //РѕР±СЉРµРєС‚ С‚РёРїР° String СЃРѕ Р·РЅР°С‡РµРЅРёРµРј "Р С‹Р¶РёРє"
+        String catName = "Р С‹Р¶РёРє";
 
-        //ячейка памяти типа String-массив
+        //СЏС‡РµР№РєР° РїР°РјСЏС‚Рё С‚РёРїР° String-РјР°СЃСЃРёРІ
         String[] catsNames;
 
-        //объект типа String-массив,  состоящий из 8 ячеек
+        //РѕР±СЉРµРєС‚ С‚РёРїР° String-РјР°СЃСЃРёРІ,  СЃРѕСЃС‚РѕСЏС‰РёР№ РёР· 8 СЏС‡РµРµРє
         catsNames = new String[8];
-        catsNames[4] = "Рыжик";
-        catsNames[1] = "Черныш";
-        catsNames[6] = "Рыжик";
+        catsNames[4] = "Р С‹Р¶РёРє";
+        catsNames[1] = "Р§РµСЂРЅС‹С€";
+        catsNames[6] = "Р С‹Р¶РёРє";
 
-        //объект типа int-массив,  состоящий из 8 ячеек
+        //РѕР±СЉРµРєС‚ С‚РёРїР° int-РјР°СЃСЃРёРІ,  СЃРѕСЃС‚РѕСЏС‰РёР№ РёР· 8 СЏС‡РµРµРє
         int[] catsAges = new int[8];
 
         System.out.println(catName);
@@ -37,21 +37,21 @@ public class Lesson7 {
 
         System.out.println("___________________________");
         for (int i = 0; i < 8; i ++) {
-            if (catsNames[i] == "Рыжик") {
+            if (catsNames[i] == "Р С‹Р¶РёРє") {
                 System.out.println(catsNames[i]);
             }
         }
 
         System.out.println("___________________________");
         for (int i = 0; i < 8; i++) {
-            if (catsNames[i] == "Рыжик") {
+            if (catsNames[i] == "Р С‹Р¶РёРє") {
                 System.out.println(i);
             }
         }
 
         System.out.println("___________________________");
         for (int i = 0; i < 8; i++) {
-            if (catsNames[i] == "Черныш") {
+            if (catsNames[i] == "Р§РµСЂРЅС‹С€") {
                 System.out.println(i);
             }
         }

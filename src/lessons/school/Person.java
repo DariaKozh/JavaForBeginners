@@ -5,8 +5,8 @@ public class Person {
     public static void main(String [] args) {
 
 int yob = 1990;
-String text1 = "Если человек родился в ";
-String text2 = " году, то его возраст - разница между 2020 и ";
+String text1 = "Р•СЃР»Рё С‡РµР»РѕРІРµРє СЂРѕРґРёР»СЃСЏ РІ ";
+String text2 = " РіРѕРґСѓ, С‚Рѕ РµРіРѕ РІРѕР·СЂР°СЃС‚ - СЂР°Р·РЅРёС†Р° РјРµР¶РґСѓ 2020 Рё ";
 
 System.out.println(text1 + yob + text2 + yob);
     }

@@ -10,6 +10,6 @@ public class Lesson8_1 {
 
     public static void main(String[] args) {
         Utils.line();
-        horse1_1 = "Конь в яблоках";
+        horse1_1 = "РљРѕРЅСЊ РІ СЏР±Р»РѕРєР°С…";
     }
 }

@@ -2,7 +2,7 @@ package lessons.lessons1to7;
 
 public class Lesson6 {
 
-    //Website “99 bottles of beer”:	 http://www.99-bottles-of-beer.net/lyrics.html
+    //Website вЂњ99 bottles of beerвЂќ:	 http://www.99-bottles-of-beer.net/lyrics.html
 
     public static void main(String[] args) {
 
@@ -10,17 +10,17 @@ public class Lesson6 {
 //
 //        }
 
-        //Печатаем "Java for beginners" для всех чисел от 1 до 5 включительно
+        //РџРµС‡Р°С‚Р°РµРј "Java for beginners" РґР»СЏ РІСЃРµС… С‡РёСЃРµР» РѕС‚ 1 РґРѕ 5 РІРєР»СЋС‡РёС‚РµР»СЊРЅРѕ
         for (int i = 1; i < 6; i++) {
             System.out.println("Java for beginners");
         }
 
-        //Печатаем числа от 1 до 5 включительно
+        //РџРµС‡Р°С‚Р°РµРј С‡РёСЃР»Р° РѕС‚ 1 РґРѕ 5 РІРєР»СЋС‡РёС‚РµР»СЊРЅРѕ
         for (int i = 1; i < 6; i++) {
             System.out.println(i);
         }
 
-        //Печатаем только нечетные числа от 1 до 10 включительно
+        //РџРµС‡Р°С‚Р°РµРј С‚РѕР»СЊРєРѕ РЅРµС‡РµС‚РЅС‹Рµ С‡РёСЃР»Р° РѕС‚ 1 РґРѕ 10 РІРєР»СЋС‡РёС‚РµР»СЊРЅРѕ
         for (int i = 1; i < 11; i++) {
             if (i % 2 != 0) {
                 System.out.println(i);
@@ -35,27 +35,27 @@ public class Lesson6 {
             System.out.println(i);
         }
 
-        //Печатаем все числа от 1 до 100 включительно с шагом 10
+        //РџРµС‡Р°С‚Р°РµРј РІСЃРµ С‡РёСЃР»Р° РѕС‚ 1 РґРѕ 100 РІРєР»СЋС‡РёС‚РµР»СЊРЅРѕ СЃ С€Р°РіРѕРј 10
         for (int i = 1; i < 101; i += 10) {
             System.out.println(i);
         }
 
-        //Печатаем все числа в промежутке от 0 до 100 включительно, кратные 10
+        //РџРµС‡Р°С‚Р°РµРј РІСЃРµ С‡РёСЃР»Р° РІ РїСЂРѕРјРµР¶СѓС‚РєРµ РѕС‚ 0 РґРѕ 100 РІРєР»СЋС‡РёС‚РµР»СЊРЅРѕ, РєСЂР°С‚РЅС‹Рµ 10
         for (int i = 0; i < 101; i += 10) {
             System.out.println(i);
         }
 
-        //Печатаем все числа в промежутке от -100 до 100 включительно, кратные 10
+        //РџРµС‡Р°С‚Р°РµРј РІСЃРµ С‡РёСЃР»Р° РІ РїСЂРѕРјРµР¶СѓС‚РєРµ РѕС‚ -100 РґРѕ 100 РІРєР»СЋС‡РёС‚РµР»СЊРЅРѕ, РєСЂР°С‚РЅС‹Рµ 10
         for (int i = -100; i < 101; i += 10) {
             System.out.println(i);
         }
 
-        //Печатаем все числа от 5 до 1 включительно
+        //РџРµС‡Р°С‚Р°РµРј РІСЃРµ С‡РёСЃР»Р° РѕС‚ 5 РґРѕ 1 РІРєР»СЋС‡РёС‚РµР»СЊРЅРѕ
         for (int i = 5; i > 0; i--) {
             System.out.println(i);
         }
 
-        //Стараемся придумывать решения ТОЛЬКО с одним for
+        //РЎС‚Р°СЂР°РµРјСЃСЏ РїСЂРёРґСѓРјС‹РІР°С‚СЊ СЂРµС€РµРЅРёСЏ РўРћР›Р¬РљРћ СЃ РѕРґРЅРёРј for
 //        for(;;) {
 //            for(;;) {
 //                for(;;) {
@@ -365,7 +365,7 @@ public class Lesson6 {
                 "Go to the store and buy some more, 99 bottles of beer on the wall."
         );*/
 
-        // Песенка кодом http://www.99-bottles-of-beer.net/lyrics.html
+        // РџРµСЃРµРЅРєР° РєРѕРґРѕРј http://www.99-bottles-of-beer.net/lyrics.html
         String bottles = " bottles of beer";
         String bottle = " bottle of beer";
         String wall = " on the wall";

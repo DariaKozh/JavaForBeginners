@@ -17,15 +17,15 @@ public class Lesson4 {
     public static void task(int number) {
         printEmptyLine();
         printLine();
-        System.out.println("Задача " + number);
+        System.out.println("Р—Р°РґР°С‡Р° " + number);
     }
 
-    //сложный
+    //СЃР»РѕР¶РЅС‹Р№
 //    static int number = 1;
 //
 //    public static void task() {
 //        printLine();
-//        System.out.println("Задача " + number);
+//        System.out.println("Р—Р°РґР°С‡Р° " + number);
 //
 //        number ++;
 //    }
@@ -33,39 +33,39 @@ public class Lesson4 {
     public static void main(String[] args) {
 
         task(1);
-        // Квадрат  - это !круг.
-        String square = "Квадрат";
-        String circle = "Круг";
+        // РљРІР°РґСЂР°С‚  - СЌС‚Рѕ !РєСЂСѓРі.
+        String square = "РљРІР°РґСЂР°С‚";
+        String circle = "РљСЂСѓРі";
 
         System.out.println(square != circle);
 
         task(2);
-        //Если сегодня суббота, значит, завтра воскресенье.
+        //Р•СЃР»Рё СЃРµРіРѕРґРЅСЏ СЃСѓР±Р±РѕС‚Р°, Р·РЅР°С‡РёС‚, Р·Р°РІС‚СЂР° РІРѕСЃРєСЂРµСЃРµРЅСЊРµ.
 
-        // вариант 1
-        String today = "Суббота";
+        // РІР°СЂРёР°РЅС‚ 1
+        String today = "РЎСѓР±Р±РѕС‚Р°";
 
-        if(today == "Суббота") {
-            String tomorrow = "Воскресенье";
+        if(today == "РЎСѓР±Р±РѕС‚Р°") {
+            String tomorrow = "Р’РѕСЃРєСЂРµСЃРµРЅСЊРµ";
         }
 
-        // вариант 2
-        String tomorrow = "Воскресенье";
+        // РІР°СЂРёР°РЅС‚ 2
+        String tomorrow = "Р’РѕСЃРєСЂРµСЃРµРЅСЊРµ";
 
-        if(today == "Суббота") {
+        if(today == "РЎСѓР±Р±РѕС‚Р°") {
             System.out.println(tomorrow);
         }
 
-        // вариант 3
+        // РІР°СЂРёР°РЅС‚ 3
         String tomorrow1;
 
-        if(today == "Суббота") {
-            tomorrow1 = "Воскресенье";
+        if(today == "РЎСѓР±Р±РѕС‚Р°") {
+            tomorrow1 = "Р’РѕСЃРєСЂРµСЃРµРЅСЊРµ";
         }
 
         task(3);
-        //Если a > b или b < c, то присвоить a значание 7, и сложить  b и c,
-        // иначе присвоить а значение 10
+        //Р•СЃР»Рё a > b РёР»Рё b < c, С‚Рѕ РїСЂРёСЃРІРѕРёС‚СЊ a Р·РЅР°С‡Р°РЅРёРµ 7, Рё СЃР»РѕР¶РёС‚СЊ  b Рё c,
+        // РёРЅР°С‡Рµ РїСЂРёСЃРІРѕРёС‚СЊ Р° Р·РЅР°С‡РµРЅРёРµ 10
 
         int a = 9;
         int b = 12;

@@ -4,10 +4,10 @@ public class Student {
 
     public static void main(String [] args){
 
-        String firstName = "Вова";
-        String lastName = "Сидоров";
+        String firstName = "Р’РѕРІР°";
+        String lastName = "РЎРёРґРѕСЂРѕРІ";
         int age = 10;
-        String clas = "5й класс";
+        String clas = "5Р№ РєР»Р°СЃСЃ";
         String line = "*****************************";
 
         System.out.println(line);
@@ -17,10 +17,10 @@ public class Student {
         System.out.println(clas);
         System.out.println(line);
 
-        String firstName2 = "Маша";
-        String lastName2 = "Семенова";
+        String firstName2 = "РњР°С€Р°";
+        String lastName2 = "РЎРµРјРµРЅРѕРІР°";
         int age2 = 14;
-        String clas2 = "9й класс";
+        String clas2 = "9Р№ РєР»Р°СЃСЃ";
         String line2 = "*****************************";
 
         System.out.println(line2);

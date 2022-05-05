@@ -20,8 +20,8 @@ public class Lesson2 {
         System.out.println("b =  " + b);
         System.out.println("c = " + c);
 
-        System.out.println("сумма переменных a и b = " + (a + b));
-        System.out.println("сумма переменных a и b = " + sumAB);
+        System.out.println("СЃСѓРјРјР° РїРµСЂРµРјРµРЅРЅС‹С… a Рё b = " + (a + b));
+        System.out.println("СЃСѓРјРјР° РїРµСЂРµРјРµРЅРЅС‹С… a Рё b = " + sumAB);
         System.out.println(a + b);
         System.out.println(sumAB);
         System.out.println(sumABC);
@@ -34,8 +34,8 @@ public class Lesson2 {
         System.out.print(b);
         System.out.println(c);
 
-        System.out.print("Сегодня ");
-        System.out.println("суббота");
+        System.out.print("РЎРµРіРѕРґРЅСЏ ");
+        System.out.println("СЃСѓР±Р±РѕС‚Р°");
 
         System.out.println(b - a);
         System.out.println(subBA);
@@ -43,8 +43,8 @@ public class Lesson2 {
         System.out.println(a - d);
         System.out.println(a + d);
 
-        System.out.println("Сегодня\nсуббота");
-        System.out.println("\"Сегодня\"\tсуббота");
+        System.out.println("РЎРµРіРѕРґРЅСЏ\nСЃСѓР±Р±РѕС‚Р°");
+        System.out.println("\"РЎРµРіРѕРґРЅСЏ\"\tСЃСѓР±Р±РѕС‚Р°");
 
         System.out.println(a * b);
         System.out.println(multAB);
@@ -55,11 +55,11 @@ public class Lesson2 {
         System.out.println(a / b);
         System.out.println(devAB);
 
-        ///Остаток от деления
+        ///РћСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ
         System.out.println(b % a);
         System.out.println(a % b);
 
-        //унарныеоператоры ++ --
+        //СѓРЅР°СЂРЅС‹РµРѕРїРµСЂР°С‚РѕСЂС‹ ++ --
         a++;
         System.out.println(a);
         System.out.println(a + 1);

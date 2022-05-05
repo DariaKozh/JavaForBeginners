@@ -23,36 +23,36 @@ public class HW2 {
         System.out.println(line);
         System.out.println("Sum of k and l = " + sumKL);
         System.out.println("k * m = " + multKM);
-        System.out.println("Разность переменных l и m = " + subLM);
+        System.out.println("Р Р°Р·РЅРѕСЃС‚СЊ РїРµСЂРµРјРµРЅРЅС‹С… l Рё m = " + subLM);
 
         System.out.println(line);
-        System.out.println("Результат деления k на l = " + (k / l) + ", а остаток от деления = " + (k % l));
-        System.out.println("Результат деления k на m = " + (k / m) + ", а остаток от деления = " + (k % m));
-        System.out.println("Результат деления l на m = " + (l / m) + ", а остаток от деления = " + (l % m));
-        System.out.println("Результат деления l на k = " + (l / k) + ", а остаток от деления = " + (l % k));
-        System.out.println("Результат деления m на k = " + (m / k) + ", а остаток от деления = " + (m % k));
-        System.out.println("Результат деления m на l = " + (m / l) + ", а остаток от деления = " + (m % l));
+        System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ РґРµР»РµРЅРёСЏ k РЅР° l = " + (k / l) + ", Р° РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ = " + (k % l));
+        System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ РґРµР»РµРЅРёСЏ k РЅР° m = " + (k / m) + ", Р° РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ = " + (k % m));
+        System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ РґРµР»РµРЅРёСЏ l РЅР° m = " + (l / m) + ", Р° РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ = " + (l % m));
+        System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ РґРµР»РµРЅРёСЏ l РЅР° k = " + (l / k) + ", Р° РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ = " + (l % k));
+        System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ РґРµР»РµРЅРёСЏ m РЅР° k = " + (m / k) + ", Р° РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ = " + (m % k));
+        System.out.println("Р РµР·СѓР»СЊС‚Р°С‚ РґРµР»РµРЅРёСЏ m РЅР° l = " + (m / l) + ", Р° РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ = " + (m % l));
 
         System.out.println(line);
         int apple = 100;
         int student = 21;
 
-        System.out.println("Если " + apple + " яблок поделить на " + student + " учеников, то каждый ученик получит по "
-                + (apple / student) + " яблок(a), и " + (apple % student) + " яблок(а) останется учителю.");
+        System.out.println("Р•СЃР»Рё " + apple + " СЏР±Р»РѕРє РїРѕРґРµР»РёС‚СЊ РЅР° " + student + " СѓС‡РµРЅРёРєРѕРІ, С‚Рѕ РєР°Р¶РґС‹Р№ СѓС‡РµРЅРёРє РїРѕР»СѓС‡РёС‚ РїРѕ "
+                + (apple / student) + " СЏР±Р»РѕРє(a), Рё " + (apple % student) + " СЏР±Р»РѕРє(Р°) РѕСЃС‚Р°РЅРµС‚СЃСЏ СѓС‡РёС‚РµР»СЋ.");
 
         System.out.println(line);
         int m1;
         m1 = m;
         m1++;
-        System.out.println("Сумма чисел k, l, m++ и sumKLM-- = " + (k + l + m1 + sumKLM - 1)
-                + ", а разность m++ и  sumLKM = " + (m1 - sumKLM));
+        System.out.println("РЎСѓРјРјР° С‡РёСЃРµР» k, l, m++ Рё sumKLM-- = " + (k + l + m1 + sumKLM - 1)
+                + ", Р° СЂР°Р·РЅРѕСЃС‚СЊ m++ Рё  sumLKM = " + (m1 - sumKLM));
 
         System.out.println(line);
-        System.out.println("48 кратно 8, т.к. 48/8 = " + (48 / 8) + ", а остаток от деления =" + (48 % 8));
-        System.out.println("48 четное число, т.к. остаток от деления 48 на 2 = " + (48 % 2));
-        System.out.println("8 четное число, т.к. остаток от деления 8 на 2 = " + (8 % 2));
-        System.out.println("47 нечетное число, т.к. остаток от деления 47 на 2 = " + (47 % 2));
-        System.out.println("49 нечетное число, т.к. остаток от деления 49 на 2 = " + (49 % 2));
+        System.out.println("48 РєСЂР°С‚РЅРѕ 8, С‚.Рє. 48/8 = " + (48 / 8) + ", Р° РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ =" + (48 % 8));
+        System.out.println("48 С‡РµС‚РЅРѕРµ С‡РёСЃР»Рѕ, С‚.Рє. РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ 48 РЅР° 2 = " + (48 % 2));
+        System.out.println("8 С‡РµС‚РЅРѕРµ С‡РёСЃР»Рѕ, С‚.Рє. РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ 8 РЅР° 2 = " + (8 % 2));
+        System.out.println("47 РЅРµС‡РµС‚РЅРѕРµ С‡РёСЃР»Рѕ, С‚.Рє. РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ 47 РЅР° 2 = " + (47 % 2));
+        System.out.println("49 РЅРµС‡РµС‚РЅРѕРµ С‡РёСЃР»Рѕ, С‚.Рє. РѕСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ 49 РЅР° 2 = " + (49 % 2));
 
         System.out.println(line);
         int x = 2;
@@ -68,8 +68,8 @@ public class HW2 {
                 + (a + b / c + d) + a * b));
 
         System.out.println("(x+3)^2 = " + result21);
-        System.out.println("2е выражение = " + result22);
-        System.out.println("3е выражение = " + result23);
+        System.out.println("2Рµ РІС‹СЂР°Р¶РµРЅРёРµ = " + result22);
+        System.out.println("3Рµ РІС‹СЂР°Р¶РµРЅРёРµ = " + result23);
 
         System.out.println(
                 "---------------------\n"

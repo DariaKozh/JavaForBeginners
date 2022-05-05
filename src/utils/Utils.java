@@ -28,7 +28,7 @@ public class Utils {
     }
 
     public static void task(int a) {
-        System.out.println(ANSI_PURPLE + "\n****************\n  Задание № " + a + "\n****************" + ANSI_RESET);
+        System.out.println(ANSI_PURPLE + "\n****************\n  Р—Р°РґР°РЅРёРµ в„– " + a + "\n****************" + ANSI_RESET);
     }
 
     public static void line() {
@@ -66,7 +66,7 @@ public class Utils {
     public static void task1(int number) {
         ln();
         line();
-        System.out.println("Задача " + number);
+        System.out.println("Р—Р°РґР°С‡Р° " + number);
     }
 
     public static double formatDouble (double number, int d) {
@@ -112,7 +112,7 @@ public class Utils {
         }
     }
 
-    //Метод, который принимает на вход массив int, и возвращает среднее значение.
+    //РњРµС‚РѕРґ, РєРѕС‚РѕСЂС‹Р№ РїСЂРёРЅРёРјР°РµС‚ РЅР° РІС…РѕРґ РјР°СЃСЃРёРІ int, Рё РІРѕР·РІСЂР°С‰Р°РµС‚ СЃСЂРµРґРЅРµРµ Р·РЅР°С‡РµРЅРёРµ.
      public static double averageArray(int number[]){
         double average;
         double sum = 0;

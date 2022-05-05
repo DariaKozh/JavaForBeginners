@@ -74,7 +74,7 @@ public class lesson8 {
         System.out.println(intReg == intReg1);
         System.out.println(intReg == intObject);
 
-        //System.out.println(Lesson8_1.horse1_1 - коня не видим)
+        //System.out.println(Lesson8_1.horse1_1 - РєРѕРЅСЏ РЅРµ РІРёРґРёРј)
 
 
 

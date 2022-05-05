@@ -36,7 +36,7 @@ public class HW3 {
         System.out.println("Task 5");
         long phoneNumber = 79516895236L;
 
-        System.out.println("Телефон " + phoneNumber);
+        System.out.println("РўРµР»РµС„РѕРЅ " + phoneNumber);
         System.out.println(line);
 
         System.out.println("Task 6");
@@ -81,10 +81,10 @@ public class HW3 {
         double quotient = f / d;
         double remainder = f % d;
 
-        System.out.println("sum f и d = " + sum);
-        System.out.println("product f и d = " + product);
-        System.out.println("quotient f на d = " + quotient);
-        System.out.println("remainder f на d = " + remainder);
+        System.out.println("sum f Рё d = " + sum);
+        System.out.println("product f Рё d = " + product);
+        System.out.println("quotient f РЅР° d = " + quotient);
+        System.out.println("remainder f РЅР° d = " + remainder);
         System.out.println(line);
 
         System.out.println("Task 10");
@@ -145,10 +145,10 @@ public class HW3 {
         Integer Num1 = 30;
         Integer Num2 = 30;
         Num1.equals(Num2);
-        System.out.println("Если num1 = num2, то результат сравнения методом .equal = " + Num1.equals(Num2));
+        System.out.println("Р•СЃР»Рё num1 = num2, С‚Рѕ СЂРµР·СѓР»СЊС‚Р°С‚ СЃСЂР°РІРЅРµРЅРёСЏ РјРµС‚РѕРґРѕРј .equal = " + Num1.equals(Num2));
         Num1 = 38;
         Num2 = 36;
-        System.out.println("Если num1 не равно num2, то результат сравнения методом .equal = " + Num1.equals(Num2));
+        System.out.println("Р•СЃР»Рё num1 РЅРµ СЂР°РІРЅРѕ num2, С‚Рѕ СЂРµР·СѓР»СЊС‚Р°С‚ СЃСЂР°РІРЅРµРЅРёСЏ РјРµС‚РѕРґРѕРј .equal = " + Num1.equals(Num2));
         System.out.println(line);
 
         System.out.println("Task 14");
@@ -156,21 +156,21 @@ public class HW3 {
         int number2;
         number1 = 10;
         number2 = 10;
-        System.out.println("Если number1 = number2, то результат сравнения методом compareTo = "
+        System.out.println("Р•СЃР»Рё number1 = number2, С‚Рѕ СЂРµР·СѓР»СЊС‚Р°С‚ СЃСЂР°РІРЅРµРЅРёСЏ РјРµС‚РѕРґРѕРј compareTo = "
                 + Integer.valueOf(number1).compareTo(Integer.valueOf(number2)));
-        System.out.println("Если number1 = number2, то результат сравнения методом Integer.compare = "
+        System.out.println("Р•СЃР»Рё number1 = number2, С‚Рѕ СЂРµР·СѓР»СЊС‚Р°С‚ СЃСЂР°РІРЅРµРЅРёСЏ РјРµС‚РѕРґРѕРј Integer.compare = "
                 + Integer.compare (number1, number2));
         number1 = 1;
         number2 = 10;
-        System.out.println("Если number1 < number2, то результат сравнения методом compareTo = "
+        System.out.println("Р•СЃР»Рё number1 < number2, С‚Рѕ СЂРµР·СѓР»СЊС‚Р°С‚ СЃСЂР°РІРЅРµРЅРёСЏ РјРµС‚РѕРґРѕРј compareTo = "
                 + Integer.valueOf(number1).compareTo(Integer.valueOf(number2)));
-        System.out.println("Если number1 < number2, то результат сравнения методом Integer.compare = "
+        System.out.println("Р•СЃР»Рё number1 < number2, С‚Рѕ СЂРµР·СѓР»СЊС‚Р°С‚ СЃСЂР°РІРЅРµРЅРёСЏ РјРµС‚РѕРґРѕРј Integer.compare = "
                 + Integer.compare (number1, number2));
         number1 = 15;
         number2 = 10;
-        System.out.println("Если number1 > number2, то результат сравнения методом compareTo = "
+        System.out.println("Р•СЃР»Рё number1 > number2, С‚Рѕ СЂРµР·СѓР»СЊС‚Р°С‚ СЃСЂР°РІРЅРµРЅРёСЏ РјРµС‚РѕРґРѕРј compareTo = "
                 + Integer.valueOf(number1).compareTo(Integer.valueOf(number2)));
-        System.out.println("Если number1 > number2, то результат сравнения методом Integer.compare = "
+        System.out.println("Р•СЃР»Рё number1 > number2, С‚Рѕ СЂРµР·СѓР»СЊС‚Р°С‚ СЃСЂР°РІРЅРµРЅРёСЏ РјРµС‚РѕРґРѕРј Integer.compare = "
                 + Integer.compare (number1, number2));
         System.out.println(line);
 
@@ -218,33 +218,33 @@ public class HW3 {
         Double avr = tempcat/2;
         tempcat = 39.9;
         avr = avr + tempcat/2;
-        System.out.println("Средняя температура кота = " + Math.round(avr));
+        System.out.println("РЎСЂРµРґРЅСЏСЏ С‚РµРјРїРµСЂР°С‚СѓСЂР° РєРѕС‚Р° = " + Math.round(avr));
         System.out.println(line);
 
         System.out.println("Task 21");
         Number N;
         N = Double.MAX_VALUE;
-        System.out.println("Переменная n может принимать значения: \n"
+        System.out.println("РџРµСЂРµРјРµРЅРЅР°СЏ n РјРѕР¶РµС‚ РїСЂРёРЅРёРјР°С‚СЊ Р·РЅР°С‡РµРЅРёСЏ: \n"
                 + "n = " + N);
         N = 10;
         System.out.println("n = " + N);
         N = 10.9999999999;
         System.out.println("n = " + N + "\n"
-                + "Это возможно, потому что переменная N типа Number.");
+                + "Р­С‚Рѕ РІРѕР·РјРѕР¶РЅРѕ, РїРѕС‚РѕРјСѓ С‡С‚Рѕ РїРµСЂРµРјРµРЅРЅР°СЏ N С‚РёРїР° Number.");
 
 
         System.out.println(line);
 
         System.out.println("Task 22");
         Integer NumberInteger = 100;
-        System.out.println("NumberInteger тип = " + NumberInteger.getClass());
-        System.out.println("NumberInteger.toString() тип = " + NumberInteger.toString().getClass());
+        System.out.println("NumberInteger С‚РёРї = " + NumberInteger.getClass());
+        System.out.println("NumberInteger.toString() С‚РёРї = " + NumberInteger.toString().getClass());
         System.out.println(line);
 
         System.out.println("Task 23");
         double cel = 36.6;
-        String text1 = " градусов по Цельсию = ";
-        String text2 = " градусов по Фаренгейту";
+        String text1 = " РіСЂР°РґСѓСЃРѕРІ РїРѕ Р¦РµР»СЊСЃРёСЋ = ";
+        String text2 = " РіСЂР°РґСѓСЃРѕРІ РїРѕ Р¤Р°СЂРµРЅРіРµР№С‚Сѓ";
         double far = (cel * 9 / 5) + 32;
         System.out.println(cel + text1 + far + text2);
 

@@ -4,10 +4,10 @@ public class Teacher {
 
     public static void main(String [] args){
 
-        String firstName = "Иван Петрович";
-        String lastName = "Серебряков";
+        String firstName = "РРІР°РЅ РџРµС‚СЂРѕРІРёС‡";
+        String lastName = "РЎРµСЂРµР±СЂСЏРєРѕРІ";
         int age = 55;
-        String subject = "Математика";
+        String subject = "РњР°С‚РµРјР°С‚РёРєР°";
         String line = "**********************************";
 
         System.out.println(line);
