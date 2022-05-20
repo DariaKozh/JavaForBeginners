@@ -104,10 +104,7 @@ public class HW10 {
 
             if (text.length() != 0) {
 
-                text = text.replace(" ", "");
-                text = text.replace("0", "");
-
-                return text;
+                return text.replace(" ", "").replace("0", "");
             }
 
             return "";
@@ -129,9 +126,7 @@ public class HW10 {
 
             if (text.length() != 0) {
 
-                text = text.replace(" ", "");
-
-                return text;
+                return text.replace(" ", "");
             }
 
             return "";
@@ -168,18 +163,36 @@ public class HW10 {
         }
     }
 
+    //второй вариант решения 5й задачи - более простой!!!
+
+    public static int countA2(String text) {
+
+        if (text != null) {
+
+            text = text.trim();
+
+            if (text.length() != 0) {
+
+
+                return text.length() - text.toLowerCase().replace("a", "").length();
+            }
+
+            return 0;
+        } else {
+
+            return 0;
+        }
+    }
+
     //6.Напишите метод, который принимает на вход текст и проверяет, содержится ли в тексте хотя бы одно слово Java.
-    public static boolean containsJava(String text) {
+    public static boolean isContainsJava(String text) {
 
         if (text != null) {
             text = text.trim();
 
             if (text.length() != 0) {
 
-                text = text.toLowerCase();
-                boolean t = text.contains("java");
-
-                return t;
+                return text.toLowerCase().contains("java");
             }
 
             return false;
@@ -221,10 +234,8 @@ public class HW10 {
             text = text.trim();
 
             if (text.length() != 0) {
-                text = text.toLowerCase();
-                text = text.substring(0, 1).toUpperCase() + text.substring(1);
 
-                return text;
+                return text.substring(0, 1).toUpperCase() + text.substring(1).toLowerCase();
             }
 
             return "";
@@ -246,9 +257,7 @@ public class HW10 {
 
             if (text.length() != 0 && text.contains(letter) == true && letter.length() == 1) {
 
-                text = text.substring(text.indexOf(letter), (text.lastIndexOf(letter) + 1));
-
-                return text;
+                return text.substring(text.indexOf(letter), (text.lastIndexOf(letter) + 1));
             }
 
             return "";
@@ -297,9 +306,7 @@ public class HW10 {
 
             if (text.length() != 0) {
 
-                String[] arrayString = text.split(" ");
-
-                return arrayString;
+                return text.split(" ");
             }
 
             return new String[]{};
@@ -467,16 +474,18 @@ public class HW10 {
         //“Homenum Revelio” → 0
         print(countA("Abracadabra"));
         print(countA("Homenum Revelio"));
+        print(countA2("Abracadabra"));
+        print(countA2("Homenum Revelio"));
 
         task(6);
         //6.Напишите метод, который принимает на вход текст и проверяет, содержится ли в тексте хотя бы одно слово Java.
-        System.out.println((containsJava("As of March 2022, Java 18 is the latest version, while Java 17, 11 and 8 "
+        System.out.println((isContainsJava("As of March 2022, Java 18 is the latest version, while Java 17, 11 and 8 "
                 + "are the current long-term support (LTS) versions. Oracle released the last zero-cost public update "
                 + "for the legacy version Java 8 LTS in January 2019 for commercial use, although it will otherwise "
                 + "still support Java 8 with public updates for personal use indefinitely. Other vendors have begun"
                 + " to offer zero-cost builds of OpenJDK 8 and 11 that are still receiving security and "
                 + "other upgrades.")));
-        System.out.println(containsJava("As a decrepit father takes delight\n"
+        System.out.println(isContainsJava("As a decrepit father takes delight\n"
                 + "To see his active child do deeds of youth,\n"
                 + "So I, made lame by fortune’s dearest spite,\n"
                 + "Take all my comfort of thy worth and truth.\n"
