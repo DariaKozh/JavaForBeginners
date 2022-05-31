@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/homework/Employee.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/homework/EmployeeSalaryTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/homework/HW10.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/homework/HW2.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/homework/HW3.java" charset="UTF-8" />
@@ -8,8 +10,13 @@
     <file url="file://$PROJECT_DIR$/src/homework/HW5.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/homework/HW6.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/homework/HW7.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/homework/HWSergey.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/homework/Person.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/homework/PersonTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/homework/Salary.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/homework/hw8/HW8.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/homework/hw8/HW8_1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/lessons/lesson13/Lesson13List.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/lessons/lesson8/Lesson8_1.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/lessons/lesson8/lesson8.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/lessons/lessons1to7/Lesson2.java" charset="UTF-8" />
