@@ -1,10 +1,90 @@
 package homework;
 
+import java.util.Arrays;
 import java.util.Locale;
 
 import static utils.Utils.*;
 
 public class HWSergey {
+
+    //метод принимает 2 строки и возращает true, усли первые и последние буквы совпадают
+    public static boolean isSameLetters(String str1, String str2) {
+        if (str1 != null && str2 != null) {
+            str1 = str1.trim();
+            str2 = str2.trim();
+            if (str1.length() > 0 && str2.length() > 0) {
+                if (str1.charAt(0) == str2.charAt(0) && str1.charAt(str1.length() - 1) == str2.charAt(str2.length() - 1)) {
+
+                    return true;
+                }
+                return false;
+            }
+            return false;
+        }
+        return false;
+    }
+
+
+    //Напишите метод для преобразования имени в инициалы
+    public static String getShortName(String name) {
+        if (name != null) {
+            name = name.trim();
+            if (name.length() > 0) {
+                String result = name.substring(0, 1) + ".";
+
+                for (int i = 0; i < name.length(); i++) {
+                    if (name.charAt(i) == ' ') {
+                        result = result + name.substring(i + 1, i + 2) + ".";
+                    }
+                }
+
+                return result;
+            }
+
+            return "";
+        }
+
+        return "";
+    }
+
+    //принимает букву, возращает позицию в алфавите
+    public static String position(char alphabet) {
+        if (alphabet == 'a') {
+            return "Position of alphabet: 1";
+        } else {
+            return "Position of alphabet: " + Integer.toString(alphabet - 'a' + 1);
+        }
+    }
+
+    public static int basicMath(String op, int v1, int v2) {
+        if (op.equals("+")) {
+            return v1 + v2;
+        } else if (op.equals("-")) {
+            return v1 - v2;
+        } else if (op.equals("*")) {
+            return v1 * v2;
+        } else if (op.equals("/")) {
+            return v1 / v2;
+        } else if (op.equals("%")) {
+            return v1 % v2;
+        }
+        return Integer.MIN_VALUE;
+    }
+
+    //Build a function that returns an array of integers from n to 1 where n>0.
+    //Example : n=5 --> [5,4,3,2,1]
+    public static int[] reverse(int n) {
+        if (n > 0) {
+            int[] reverse = new int[n];
+            for (int i = 0; i < n; i++) {
+                reverse[i] = n - i;
+            }
+
+            return reverse;
+        }
+        return new int[]{};
+    }
+
 
     //Given a non-negative integer, 3 for example, return a string with a murmur:
     // "1 sheep...2 sheep...3 sheep...". Input will always be valid, i.e. no negative integers.
@@ -242,6 +322,20 @@ public class HWSergey {
             System.out.println();
         }
 
+        //Напишите метод для преобразования имени в инициалы
+        System.out.println(getShortName("Круглова Лариса Петровна"));
+
+        //метод принииает 2 строки и возращает true, усли первые и последние буквы совпадают
+        System.out.println(isSameLetters("great blue heron", "garlic nann"));
+        System.out.println(isSameLetters("brown bear", "bear claw"));
+
+        //принимает букву, возращает позицию в алфавите
+        System.out.println(position('a'));
+        System.out.println(position('c'));
+
+        System.out.println(basicMath("+", 4, 7));
+
+        System.out.println(Arrays.toString(reverse(8)));
 
 
     }

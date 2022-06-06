@@ -1,4 +1,4 @@
-package homework;
+package homework.oop;
 
 //Задача №1
 //
@@ -38,23 +38,10 @@ public class Person {
     }
 
     public String getName(){
-        if (gender.equals("femail")){
+        if (this.gender.equals("female")){
             return "Mrs. "+ name;
         } else {
             return "Mr. " + name;
-        }
-    }
-
-    public String getName(Person person) {
-        if (person.gender.equals("femail")){
-
-            return "Mrs. " + person.name;
-        } else if (person.gender.equals("mail")){
-
-            return "Mr. " + person.name;
-        } else {
-
-            return person.name;
         }
     }
 

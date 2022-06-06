@@ -1,4 +1,4 @@
-package homework;
+package homework.oop;
 
 public class EmployeeSalaryTest {
 
@@ -19,5 +19,7 @@ public class EmployeeSalaryTest {
 
         Salary salary = new Salary();
         System.out.println(salary.getSum(employees));
+        System.out.println(jane.getName());
+        System.out.println(oleg.getName());
     }
 }

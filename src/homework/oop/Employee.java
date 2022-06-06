@@ -1,4 +1,4 @@
-package homework;
+package homework.oop;
 
 //Задача №2
 //
@@ -6,38 +6,20 @@ package homework;
 // Класс должен иметь метод isSameName(Employee employee) который возвращает true, если у сотрудника у которого
 // был вызван метод и сотрудника который был передан как параметр, одинаковое имя.
 
-public class Employee {
-   private String name;
-   private int age;
-   private String gender;
-   private double salary;
+public class Employee extends Person {
 
+    private double salary;
+
+    @Override
     public String getName() {
-        return name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public String getGender() {
-        return gender;
+        if (getGender().equals("female")) {
+            return super.getName().replace("Mrs. ", "");
+        }
+        return super.getName().replace("Mr. ", "");
     }
 
     public double getSalary() {
         return salary;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
     }
 
     public void setSalary(double salary) {
@@ -45,14 +27,12 @@ public class Employee {
     }
 
     public Employee(String name, int age, String gender, double salary) {
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
+        super(name, age, gender);
         this.salary = salary;
     }
 
     public boolean isSameName(Employee employee) {
-        if (employee.name.equals(Employee.this.name)) {
+        if (employee.getName().equals(Employee.super.getName())) {
             return true;
         } else {
             return false;
